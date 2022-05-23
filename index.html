@@ -1,19 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Tags</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Dummy Website</title>
 </head>
 <body>
-    <!--Head Tag-->
-    <h1>HTML Crash Course</h1>
-    <!-- Para Tag -->
-    <p>VS Code</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore mollitia id doloribus voluptatum tempora? 
-        Cum eius vitae, culpa, ab enim molestias rerum ex ullam ratione optio sunt dolores doloremque asperiores?</p>
-    <a href="https://www.rojgarmantra.com/#/home">Click me</a>
-    <a href="https://www.rojgarmantra.com/#/home" target="_blank"> Click me again </a>
+	<h1>!!!!Welcome!!!!</h1>
+	<strong>This page is made just for practice</strong>
+	<h3>Para 1</h3>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, explicabo? <br> Nesciunt, natus a eum dicta dolore, voluptas amet ratione dignissimos architecto modi <br>
+		quam delectus illo autem tenetur vero enim magni.</p>
+	<h4>Para 2</h4>
+	<pre>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id sed necessitatibus excepturi 
+possimus aut ad facere corporis autem iusto expedita numquam ipsam, 
+placeat sunt vel dolor esse minima tenetur.</pre>
+<hr>
+<div><img src="https://placeimg.com/1340/200/tech" alt="Tech"></div>
+	<hr><hr>
+<ol>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ol>
+<ul>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ul>
+<table>
+	<thead>
+		<tr>
+			<th>Sno.</th>
+			<th>Name</th>
+			<th>Email ID</th>
+			<th>Contact No.</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Nivya Nair</td>
+			<td>nivya@gmail.com</td>
+			<td>9876546789</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Swati</td>
+			<td>swati@gmail.com</td>
+			<td>9657845674</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Neetu</td>
+			<td>Neetu@gmail.com</td>
+			<td>8487655674</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+<h2>Employee Details Form</h2>
+<form action="">
+	<div>
+		<label for="name">Name: </label>
+		<input type="text" id="name" name="name">
+	</div><br>
+	<div>
+		<label for="age">Age: </label>
+		<input type="number" id="age" name="age">
+	</div><br>
+	<div>
+		<label for="about">About You: </label>
+		<textarea name="about" id="about" cols="30" rows="10"></textarea>
+	</div><br>
+	<div>
+		<label for="gen">Gender: </label>
+		
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="male"> Male </label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female"> Female </label>
+			<input type="radio" name="gender" id="other" value="other">
+			<label for="other"> Other </label>
+		
+	</div><br>
+	<div>
+		<label for="shift">Preferred Shift Time: </label>
+		<select name="shift" id="shift">
+			<option value="10 am - 6 pm">10 am - 6 pm</option>
+			<option value="3 pm - 10 pm">3 pm - 10 pm</option>
+			<option value="9 pm - 5 am">9 pm - 5 am</option>
+		</select>
+	</div><br>
+	<div>
+		<label for="skills">Skills: </label>
+		<div>
+			<input type="checkbox" id="skill1" name="java" value="java">
+			<label for="java"> Java </label><br>
+			<input type="checkbox" id="skill2" name="c++" value="c++">
+			<label for="c++"> C++ </label><br>
+			<input type="checkbox" id="skill3" name="python" name="python">
+			<label for="python"> Python </label><br>
+		</div>	
+	</div><br>
+	<div>
+		<label for="favcolor">Select your favourite color: </label>
+		<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+	</div><br>
+	<div>
+		<label for="bdate">Birthday: </label>
+		<input type="date" name="bdate" id="bdate" max="2000-12-31">
+	</div><br>
+	<div>
+		<label for="joindaytime">Joining Date & Time: </label>
+		<input type="datetime-local" name="joindaytime" id="joindaytime">
+	</div><br>
+	<div>
+		<label for="resume">Upload Resume: </label>
+		<input type="file" name="resume" id="resume">
+	</div><br>
+	<div>
+		<label for="accnt">Enter your account no.(Only SBI Accounts): </label>
+		<input type="number" name="accnt" id="accnt">
+		<input type="hidden" name="ifsc" id="ifsc" value="SBIN1234">
+	</div><br>
+	<div>
+		<label for="linkedin">Git Link: </label>
+		<input type="url" name="git" id="git">
+		
+	</div><br>
+	<div>
+		<label for="email">Email ID: </label>
+		<input type="email" id="email" name="email">
+	</div><br>
+	<div>
+		<label for="pass">Enter Password: </label>
+		<input type="password" name="pass" id="pass">
+	</div><br>
+	<div>
+		<label for="cpass">Re-enter Password: </label>
+		<input type="password" name="cpass" id="cpass">
+	</div><br>
+	<div>
+		<h5>Click on Save or Go to submit</h5>
+		<input type="submit" value="Save"> <strong>OR</strong>
+		<input type="image" src="go2.png" alt="Submit image" width="50" height="50">
+		<br> <br>
+		<input type="reset" value="Reset">
+	</div>
+	
+</form>
+
 </body>
 </html>
